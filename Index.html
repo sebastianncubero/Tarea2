@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarea 2: CSS3 - Estilo Futurista</title>
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Tarea 2: CSS3</h1>
+        <p>Estudiante: Sebastian Cubero Morales</p>
+    </header>
+
+   <nav> 
+        <a href="#box-model">Box Model</a>
+        <a href="#position">Position</a>
+        <a href="#float">Float & Clear</a>
+        <a href="#display">Display</a>
+        <a href="#overflow">Overflow</a>
+        <a href="#visibility">Visibility</a>
+        <a href="#zindex">Z-Index</a>
+        <a href="#flexbox">Flexbox</a>
+    </nav>
+
+    <main>
+
+        <section id="box-model">
+            <h2>Modelo de Caja (Box Model)</h2>
+            <p>El margin crea espacio alrededor de un elemento.</p>
+
+            <div class="box-model-container">
+                <div class="box box-1">Padding: espacio interno.</div>
+                <div class="box box-2">Border: borde del elemento.</div>
+            </div>
+
+            <p>Los elementos inline se muestran en la misma línea.</p>
+
+            <p>
+                <span class="inline">Inline A</span>
+                <span class="inline">Inline B</span>
+                <span class="inline">Inline C</span>
+            </p>
+        </section>
+
+        <section id="position">
+            <h2>Position</h2>
+
+            <p>Permite controlar la ubicación de los elementos dentro de la página.</p>
+
+            <div class="position-demo">
+                <div class="pos static">Static</div>
+                <div class="pos relative">Relative</div>
+                <div class="pos absolute">Absolute</div>
+                <div class="pos fixed">Fixed</div>
+            </div>
+        </section>
+
+        <section id="float">
+            <h2>Float y Clear</h2>
+
+            <p>Float desplaza elementos dentro de su contenedor.</p>
+
+            <div class="float-container">
+                <div class="float-box left">Float Left</div>
+                <div class="float-box right">Float Right</div>
+
+                <p class="float-text">
+                    Este texto rodea los elementos flotantes.
+                </p>
+
+                <div class="clear">
+                    Clear both coloca el contenido debajo de los elementos flotantes.
+                </div>
+            </div>
+        </section>
+
+        <section id="display">
+            <h2>Display</h2>
+
+            <p>Define la forma en que un elemento se muestra.</p>
+
+            <div class="display-demo">
+                <div class="block">Display Block</div>
+
+                <span class="inline">Display Inline</span>
+
+                <div class="inline-block">
+                    Display Inline-Block
+                </div>
+            </div>
+        </section>
+
+        <section id="overflow">
+            <h2>Overflow</h2>
+
+            <p>Controla el contenido que excede el tamaño de un contenedor.</p>
+
+            <div class="overflow-container">
+
+                <div class="overflow visible">
+                    Overflow Visible
+                    <br>
+                    El contenido puede salirse del área.
+                </div>
+
+                <div class="overflow hidden">
+                    Overflow Hidden
+                    <br>
+                    El contenido excedente se oculta.
+                </div>
+
+                <div class="overflow scroll">
+                    Overflow Scroll
+                    <br>
+                    Agrega barras de desplazamiento.
+                </div>
+
+                <div class="overflow auto">
+                    Overflow Auto
+                    <br>
+                    Muestra desplazamiento solo cuando es necesario.
+                </div>
+
+            </div>
+        </section>
+
+        <section id="visibility">
+            <h2>Visibility</h2>
+
+            <p>Controla si un elemento es visible u oculto.</p>
+
+            <div class="visibility-demo">
+                <div class="vis visible">Visible</div>
+                <div class="vis hidden">Hidden</div>
+                <div class="vis collapse">Collapse</div>
+            </div>
+        </section>
+
+        <section id="zindex">
+            <h2>Z-Index</h2>
+
+            <p>Determina qué elemento aparece encima de otro.</p>
+
+            <div class="zindex-container">
+                <div class="z z1">z-index 1</div>
+                <div class="z z10">z-index 10</div>
+                <div class="z z5">z-index 5</div>
+            </div>
+        </section>
+
+        <section id="flexbox">
+
+            <h2>Flexbox</h2>
+
+            <h3>Flex Container</h3>
+
+            <div class="flex-container">
+                <div class="flex-item">Panel 1</div>
+                <div class="flex-item">Panel 2</div>
+                <div class="flex-item">Panel 3</div>
+                <div class="flex-item">Panel 4</div>
+                <div class="flex-item">Panel 5</div>
+                <div class="flex-item">Panel 6</div>
+            </div>
+
+            <h3>Flex Items</h3>
+
+            <div class="flex-items-demo">
+                <div class="flex-demo a">Item 1</div>
+                <div class="flex-demo b">Item 2</div>
+                <div class="flex-demo c">Item 3</div>
+            </div>
+
+            <h3>Flex Responsive</h3>
+
+            <div class="flex-responsive">
+                <div class="flex-resp">Bloque 1</div>
+                <div class="flex-resp">Bloque 2</div>
+                <div class="flex-resp">Bloque 3</div>
+                <div class="flex-resp">Bloque 4</div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Tarea 2 CSS3 | Diseño Futurista</p>
+    </footer>
+
+</body>
+</html>
